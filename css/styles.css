@@ -47,7 +47,7 @@ body {
   font-family: 'Raleway';
   font-weight: 700;
   font-size: 26px;
-  line-height: calc(31/26);
+  line-height: calc(31 / 26);
   letter-spacing: 0.03em;
   color: var(--black);
   margin-right: 93px;
@@ -67,7 +67,7 @@ body {
 .contacts-link {
   font-weight: 500;
   font-size: 14px;
-  line-height: calc(16/14);
+  line-height: calc(16 / 14);
   letter-spacing: 0.02em;
 }
 .site-nav-line:not(:last-child) {
@@ -129,7 +129,7 @@ body {
 
   font-weight: 900;
   font-size: 44px;
-  line-height: calc(60/44);
+  line-height: calc(60 / 44);
   width: 696px;
   margin: 0 auto;
   text-align: center;
@@ -142,7 +142,7 @@ body {
   color: var(--white);
   font-weight: 700;
   font-size: 16px;
-  line-height: calc(30/16);
+  line-height: calc(30 / 16);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   background-color: var(--accent);
@@ -165,14 +165,14 @@ body {
 .features-title {
   font-weight: 700;
   font-size: 14px;
-  line-height: calc(16/14);
+  line-height: calc(16 / 14);
   text-transform: uppercase;
   color: var(--title-text-color);
   margin-bottom: 10px;
 }
 .features-title-text {
   font-size: 14px;
-  line-height: calc(24/14);
+  line-height: calc(24 / 14);
   letter-spacing: 0.03em;
 }
 .feature-icon {
@@ -188,7 +188,7 @@ body {
 .speciality-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: calc(42/36);
+  line-height: calc(42 / 36);
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
@@ -205,7 +205,7 @@ body {
 .team-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: calc(42/36);
+  line-height: calc(42 / 36);
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
@@ -232,14 +232,14 @@ body {
 .team-list-item-title {
   font-weight: 500;
   font-size: 16px;
-  line-height: calc(19/16);
+  line-height: calc(19 / 16);
   letter-spacing: 0.03em;
   color: var(--title-text-color);
   margin: 0 0 10px 0;
 }
 .team-list-item-desc {
   font-size: 16px;
-  line-height: calc(19/16);
+  line-height: calc(19 / 16);
   letter-spacing: 0.03em;
   margin-bottom: 16px;
 }
@@ -259,14 +259,14 @@ body {
 .social-link-item:not(:last-child) {
   margin-right: 10px;
 }
-.social-link:hover{
+.social-link:hover {
   background-color: var(--accent);
 }
-.social-icon{
-	fill: var(--social);
+.social-icon {
+  fill: var(--social);
 }
 .social-link:hover .social-icon {
-	fill: var(--white);
+  fill: var(--white);
 }
 /* regular-customers */
 .regular-customers {
@@ -275,7 +275,7 @@ body {
 .regular-customers-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: calc(42/36);
+  line-height: calc(42 / 36);
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
@@ -297,11 +297,11 @@ body {
   border-radius: 4px;
   border-color: var(--social);
 }
-.regular-customers-list-icon{
-fill: var(--social);
+.regular-customers-list-icon {
+  fill: var(--social);
 }
 .regular-customers-list-link:hover,
- .regular-customers-list-link:hover .regular-customers-list-icon {
+.regular-customers-list-link:hover .regular-customers-list-icon {
   border-color: var(--accent);
   fill: var(--accent);
 }
@@ -310,7 +310,7 @@ fill: var(--social);
   font-family: 'Raleway';
   font-weight: 700;
   font-size: 26px;
-  line-height: calc(31/26);
+  line-height: calc(31 / 26);
   letter-spacing: 0.03em;
   color: var(--white);
   display: inline-block;
@@ -323,77 +323,77 @@ fill: var(--social);
 .address {
   font-style: normal;
 }
-.address-list-item{
-margin-bottom: 9px;
+.address-list-item {
+  margin-bottom: 9px;
 }
 .address-list-item-map {
   color: var(--white);
   font-size: 14px;
-  line-height: calc(24/14);
+  line-height: calc(24 / 14);
   letter-spacing: 0.03em;
 }
 .address-list-item-link {
   color: var(--footer-contacts);
   font-size: 14px;
-  line-height: calc(24/14);
+  line-height: calc(24 / 14);
   letter-spacing: 0.03em;
 }
-.bottom-part{
-	display: flex;
-	flex-direction: row;
+.bottom-part {
+  display: flex;
+  flex-direction: row;
 }
-.address-part{
-	margin-right: 70px;
+.address-part {
+  margin-right: 70px;
 }
-.social-part{
-	padding-top: 12px;
+.social-part {
+  padding-top: 12px;
 }
-.join-title{
-	font-weight: 700;
-		font-size: 14px;
-		line-height: calc(16/14);
-		letter-spacing: 0.03em;
-		text-transform: uppercase;
-		color: var(--white);
-		margin-bottom: 20px;
+.join-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--white);
+  margin-bottom: 20px;
 }
 .social-links-footer-list {
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	padding-bottom: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-bottom: 30px;
 }
 
 .social-footer-link {
-	width: 44px;
-	height: 44px;
-	display: inline-block;
-	text-align: center;
-	padding-top: 12px;
-	border-radius: 50%;
-	background-color: rgba(255, 255, 255, 0.1);
-	}
+  width: 44px;
+  height: 44px;
+  display: inline-block;
+  text-align: center;
+  padding-top: 12px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+}
 
 .social-link-footer-item:not(:last-child) {
-	margin-right: 10px;
+  margin-right: 10px;
 }
-.social-footer-icon{
-	fill: var(--white);
+.social-footer-icon {
+  fill: var(--white);
 }
 .social-footer-link:hover,
 .social-footer-link:focus {
-	background-color: var(--accent);
+  background-color: var(--accent);
 }
 /* buttons */
 .buttons-list {
   display: flex;
   justify-content: center;
-margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 .buttons-list-button {
   font-weight: 500;
   font-size: 16px;
-  line-height: calc(26/16);
+  line-height: calc(26 / 16);
   text-align: center;
   letter-spacing: 0.03em;
   padding: 6px 22px;
@@ -403,8 +403,8 @@ margin-bottom: 50px;
   cursor: pointer;
   font-family: inherit;
 }
-.buttons-list-item:not(:last-child){
-margin-right: 8px;
+.buttons-list-item:not(:last-child) {
+  margin-right: 8px;
 }
 .buttons-list-button:hover,
 .buttons-list-button:focus {
@@ -448,14 +448,14 @@ margin-right: 8px;
 .projects-list-title {
   font-weight: 700;
   font-size: 18px;
-  line-height: calc(36/18);
+  line-height: calc(36 / 18);
   letter-spacing: 0.06em;
   color: var(--title-text-color);
   margin-bottom: 4px;
 }
 .projects-list-type {
   font-size: 16px;
-  line-height: calc(30/16);
+  line-height: calc(30 / 16);
   letter-spacing: 0.03em;
 }
 .visually-hidden {
