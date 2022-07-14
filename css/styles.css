@@ -284,11 +284,7 @@ body {
 .regular-customers-list {
   display: flex;
   flex-direction: row;
-  justify-content: center;
-}
-
-.regular-customers-list-item:not(:last-child) {
-  margin-right: 30px;
+  justify-content: space-between;
 }
 .regular-customers-list-link {
   display: inline-block;
