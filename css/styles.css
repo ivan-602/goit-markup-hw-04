@@ -98,6 +98,9 @@ body {
 .address-list-item-link:hover,
 .address-list-item-link:focus {
   color: var(--accent);
+}
+.contacts-link:hover .contacts-icon,
+.contacts-link:focus .contacts-icon {
   fill: var(--accent);
 }
 .active {
